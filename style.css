@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #95D2B3;
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo p{
+  font-size: 50px;
+  font-weight: bold;
+  color: #55AD9B;
+  text-align: center;
+}
+.ima1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ima1 img{
+  height: 250px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link a{
+  font-size: 38px;
+  font-weight: bold;
+  color: #55AD9B;
+}
+.texto1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto1 p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #black;
+  text-align: center;
+}
+.ima2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ima2 img{
+  height: 250px;
+}
+/* Estilos generales */
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.bar{
+    background-color: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar a:hover{
+    color: #666;
+}
+
+.main{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main h2{
+    color: #333;
+}
+
+.main ul{
+    list-style-type: disc; /* Utilizamos viñetas */
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
